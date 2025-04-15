@@ -5,8 +5,6 @@
   "description": "__MSG_extensionDescription__",
   "default_locale": "cs",
   "permissions": [
-    "activeTab",
-    "scripting",
     "storage",
     "tabs"
   ],
