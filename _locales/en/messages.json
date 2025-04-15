@@ -1,0 +1,126 @@
+{
+  "extensionName": {
+    "message": "Alza Dny Filter",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Filter products on Alza.cz/sk with ALZADNY/I coupons offering discounts based on your minimum discount preference",
+    "description": "Description of the extension"
+  },
+  "minDiscount": {
+    "message": "Min. discount:",
+    "description": "Label for minimum discount input"
+  },
+  "update": {
+    "message": "Update",
+    "description": "Update button text"
+  },
+  "optimizeMemory": {
+    "message": "Optimize Memory",
+    "description": "Label for optimize memory checkbox"
+  },
+  "optimizeMemoryTooltip": {
+    "message": "Completely removes filtered products for better performance. Cannot change discount after filtering.",
+    "description": "Tooltip for optimize memory checkbox"
+  },
+  "loadAndFilter": {
+    "message": "Load & Filter Products",
+    "description": "Load all products button text"
+  },
+  "stopToScroll": {
+    "message": "Stop to scroll",
+    "description": "Stop button text that explains scrolling will be possible after stopping"
+  },
+  "resume": {
+    "message": "Resume",
+    "description": "Resume button text"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Loading status message"
+  },
+  "ready": {
+    "message": "Ready",
+    "description": "Ready status message"
+  },
+  "loadingAndFiltering": {
+    "message": "Loading and filtering products...",
+    "description": "Loading and filtering status message"
+  },
+  "stopped": {
+    "message": "Stopped",
+    "description": "Stopped status message"
+  },
+  "stoppedWithProgress": {
+    "message": "Stopped: $1 of $2 loaded, $3 with $4%+ discount",
+    "description": "Stopped status message with progress information",
+    "placeholders": {
+      "loadedCount": {
+        "content": "$1",
+        "example": "100"
+      },
+      "totalCount": {
+        "content": "$2",
+        "example": "497"
+      },
+      "discountedCount": {
+        "content": "$3",
+        "example": "5"
+      },
+      "discountPercentage": {
+        "content": "$4",
+        "example": "50"
+      }
+    }
+  },
+  "resuming": {
+    "message": "Resuming...",
+    "description": "Resuming status message"
+  },
+  "foundProducts": {
+    "message": "Found $COUNT$ products with $DISCOUNT$%+ discount",
+    "description": "Found products message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      },
+      "discount": {
+        "content": "$2",
+        "example": "50"
+      }
+    }
+  },
+  "loadingProgress": {
+    "message": "Loading products... ($1 of $2 total, $3 with $4%+ discount)",
+    "description": "Loading progress message with counts",
+    "placeholders": {
+      "loadedCount": {
+        "content": "$1",
+        "example": "100"
+      },
+      "totalCount": {
+        "content": "$2",
+        "example": "497"
+      },
+      "discountedCount": {
+        "content": "$3",
+        "example": "5"
+      },
+      "discountPercentage": {
+        "content": "$4",
+        "example": "50"
+      }
+    }
+  },
+  "discountUpdated": {
+    "message": "Minimum discount updated to $PERCENT$%",
+    "description": "Discount updated message",
+    "placeholders": {
+      "percent": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  }
+}

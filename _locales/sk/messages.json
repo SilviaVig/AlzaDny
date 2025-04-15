@@ -1,0 +1,126 @@
+{
+  "extensionName": {
+    "message": "Alza Dni Filter",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Filtrujte produkty na Alza.cz/sk s kupónmi ALZADNY/I ponúkajúcimi zľavy na základe vašej minimálnej preferovanej zľavy",
+    "description": "Description of the extension"
+  },
+  "minDiscount": {
+    "message": "Min. zľava:",
+    "description": "Label for minimum discount input"
+  },
+  "update": {
+    "message": "Potvrdiť",
+    "description": "Update button text"
+  },
+  "optimizeMemory": {
+    "message": "Optimalizovať pamäť",
+    "description": "Label for optimize memory checkbox"
+  },
+  "optimizeMemoryTooltip": {
+    "message": "Úplne odstráni filtrované produkty pre lepší výkon. Po filtrácii nie je možné zmeniť zľavu.",
+    "description": "Tooltip for optimize memory checkbox"
+  },
+  "loadAndFilter": {
+    "message": "Načítať a filtrovať produkty",
+    "description": "Load all products button text"
+  },
+  "stopToScroll": {
+    "message": "Zastaviť pre prehliadanie",
+    "description": "Stop button text that explains scrolling will be possible after stopping"
+  },
+  "resume": {
+    "message": "Pokračovať",
+    "description": "Resume button text"
+  },
+  "loading": {
+    "message": "Načítava sa...",
+    "description": "Loading status message"
+  },
+  "ready": {
+    "message": "Pripravené",
+    "description": "Ready status message"
+  },
+  "loadingAndFiltering": {
+    "message": "Načítavanie a filtrovanie produktov...",
+    "description": "Loading and filtering status message"
+  },
+  "stopped": {
+    "message": "Zastavené",
+    "description": "Stopped status message"
+  },
+  "stoppedWithProgress": {
+    "message": "Zastavené: načítaných $1 z $2, $3 so zľavou $4%+",
+    "description": "Stopped status message with progress information",
+    "placeholders": {
+      "loadedCount": {
+        "content": "$1",
+        "example": "100"
+      },
+      "totalCount": {
+        "content": "$2",
+        "example": "497"
+      },
+      "discountedCount": {
+        "content": "$3",
+        "example": "5"
+      },
+      "discountPercentage": {
+        "content": "$4",
+        "example": "50"
+      }
+    }
+  },
+  "resuming": {
+    "message": "Pokračuje sa...",
+    "description": "Resuming status message"
+  },
+  "foundProducts": {
+    "message": "Nájdených $COUNT$ produktov so zľavou $DISCOUNT$%+",
+    "description": "Found products message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      },
+      "discount": {
+        "content": "$2",
+        "example": "50"
+      }
+    }
+  },
+  "loadingProgress": {
+    "message": "Načítanie produktov... ($1 z celkovo $2, $3 s $4%+ zľavou)",
+    "description": "Loading progress message with counts",
+    "placeholders": {
+      "loadedCount": {
+        "content": "$1",
+        "example": "100"
+      },
+      "totalCount": {
+        "content": "$2",
+        "example": "497"
+      },
+      "discountedCount": {
+        "content": "$3",
+        "example": "5"
+      },
+      "discountPercentage": {
+        "content": "$4",
+        "example": "50"
+      }
+    }
+  },
+  "discountUpdated": {
+    "message": "Minimálna zľava aktualizovaná na $PERCENT$%",
+    "description": "Discount updated message",
+    "placeholders": {
+      "percent": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  }
+}

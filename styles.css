@@ -1,0 +1,37 @@
+.alza-dny-filter-highlight {
+    border: 2px solid #e2001a !important;
+    position: relative;
+}
+
+.alza-dny-filter-highlight::after {
+    content: attr(data-discount);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e2001a;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#alza-dny-status {
+    display: block !important;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#alza-dny-counter {
+    display: block !important;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.alza-dny-button {
+    transition: background-color 0.3s;
+}
+
+.alza-dny-button:hover {
+    background-color: #c10017 !important;
+}
